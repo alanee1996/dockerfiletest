@@ -2,7 +2,7 @@ version: 3.8
 
 services:
     my-mysql:
-        image: mysql:latest
+        image: mysql
         ports:
             - "6121:3306"
         environment: 
