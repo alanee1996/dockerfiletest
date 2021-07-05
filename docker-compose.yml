@@ -7,7 +7,7 @@ services:
             - '6121:3306'
         environment: 
             MYSQL_ROOT_PASSWORD: Esy6927#
-        network:
+        networks:
             - mynetwork
 
 networks:
